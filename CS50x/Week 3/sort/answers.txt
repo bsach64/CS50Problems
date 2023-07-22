@@ -1,0 +1,31 @@
+sort1 uses: Bubble Sort
+
+How do you know?:
+sort 1 takes the most amount of time to sort random data which lines up with bubble sort.
+Bubble sort in general, takes the most amount of time inspite of having the same big O as selection sort.
+Also, the time of this algorithm while going through already sorted lists was fastest. Thereby, lining up with the small omega(n) of bubble sort.
+
+Time taken for (real):
+Random50000 : 9.93 s
+sorted50000 : 2.853 s
+reversed50000 : 6.871 s
+
+sort2 uses: Merge Sort
+
+How do you know?:
+Sort 2 took the least amount of time to sort through random data.
+This lines up with merge sort, which has the smallest big O {O(n log n)}.
+Also, it took similiar time regardless of how much the data was sorted, lining up with the theta of merge sort (n log n).
+Therefore, this is merge sort.
+
+Time taken for (real):
+Random50000: 2.256 s
+Reversed50000: 2.465 s
+Sorted50000: 2.230 s
+
+sort3 uses: Selection Sort
+
+How do you know?:
+Sort 3 was middle of the pack while sorting through random data.
+Also, it took similiar amount of time regardless of how much the data was sorted, lining up with the theta of selection sort (n squared)
+Therefore, this is selection sort.

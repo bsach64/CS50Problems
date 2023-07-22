@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th class="text-start">Name</th>
+                <th class="text-start">Symbol</th>
+                <th class="text-end">Shares</th>
+                <th class="text-end">Price</th>
+                <th class="text-end">Transacted</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for entry in data %}
+                <tr>
+                    <td class="text-start">{{ entry.stock_name }}</td>
+                    <td class="text-start">{{ entry.symbol }}</td>
+                    <td class="text-end">{{ entry.share_count }}</td>
+                    <td class="text-end">{{ entry.price }}</td>
+                    <td class="text-end">{{ entry.transaction_date }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

@@ -1,0 +1,21 @@
+Information Given :
+    Theft took place on
+    28 July 2021
+    Humphrey Street
+
+Crime Scene Reports:
+    Theft Took place around 10:15 AM
+
+Interviews:
+    1. Raymond
+        - The thief called someone and talked to them for less than a minute.
+        - He asked the other person to purchase a flight ticket for the earliest flight out of fiftyville tommorow morning.
+    2. Eugene
+        - Saw the thief withdraw some money from the ATM on Leggett Street.
+    3. Ruth
+        - Within ten minutes of the theft, saw the thief get into a car and drive off.
+
+- [ ] Calls that lasted less than a minute on 28 July 2021
+- [ ] Transaction details related to purchase of a flight ticket ?
+- [ ] ATM transactions on Leggett Street before 10:15 AM
+- [ ] Name of people associated with a car that left the crime scene around 10:15 AM.

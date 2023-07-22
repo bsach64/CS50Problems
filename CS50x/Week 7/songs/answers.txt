@@ -1,0 +1,3 @@
+The user listens to songs with a high danceability and an higher than 0.5 energy which impilies the songs are genrally maybe like the songs you might hear at a pub or a dance party, maybe?
+Average is not always the best metric for everything so we may want to compare it with the median and/or mode.
+In order to create a better aura you can take into account other metrics given in the data like the speechiness and loudness, etc.
